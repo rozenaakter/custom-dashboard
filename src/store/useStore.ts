@@ -56,7 +56,7 @@ export const useStore = create<DashboardStore>()(
         { id: "3", type: "calendar", title: "Calendar", position: 2 },
       ],
 
-      // reorderWidgets function implement করুন
+      // reorderWidgets function implement 
       reorderWidgets: (reorderedWidgets) => 
         set({ widgets: reorderedWidgets }),
 
@@ -92,7 +92,7 @@ export const useStore = create<DashboardStore>()(
       updateTask: (id, updateTaskContent) =>
         set((state) => ({
           tasks: state.tasks.map((task) =>
-            task.id === id ? { ...task, content: updateTaskContent } : task
+            task.id === id ? { ...task, title: updateTaskContent } : task
           ),
         })),
 
