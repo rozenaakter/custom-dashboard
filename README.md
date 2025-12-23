@@ -7,6 +7,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 A fully customizable personal dashboard built with **Next.js**, **Zustand**, and **TypeScript**.  
 The dashboard includes **Drag & Drop widgets**, **Custom Themes**, and complete **CRUD functionalities** for Notes, Tasks, and Calendar Events.
 
+# Live Link
+https://custom-dashboard-eta.vercel.app/
+
 ---
 
 ## 🚀 Features
